@@ -16,12 +16,12 @@
             <div class="contact-icon">📞</div>
             <h3>客服热线</h3>
             <div class="contact-info">
-              <p class="main-number">400-888-1688</p>
+              <p class="main-number">400-888-xxxx</p>
               <p class="sub-info">7×24小时服务</p>
             </div>
-            <a href="tel:400-888-1688" class="btn btn-primary">立即拨打</a>
+            <a href="tel:400-888-xxxx" class="btn btn-primary">立即拨打</a>
           </div>
-          
+
           <div class="contact-card">
             <div class="contact-icon">💬</div>
             <h3>在线客服</h3>
@@ -31,7 +31,7 @@
             </div>
             <button class="btn btn-primary" @click="openOnlineChat">在线咨询</button>
           </div>
-          
+
           <div class="contact-card">
             <div class="contact-icon">📧</div>
             <h3>邮箱联系</h3>
@@ -51,13 +51,13 @@
         <div class="details-grid">
           <div class="contact-info-section">
             <h2 class="section-title">联系信息</h2>
-            
+
             <div class="info-group">
               <h4>📞 客服热线</h4>
               <div class="info-list">
                 <div class="info-item">
                   <span class="label">全国客服热线：</span>
-                  <span class="value">400-888-1688</span>
+                  <span class="value">400-888-xxxx</span>
                 </div>
                 <div class="info-item">
                   <span class="label">VIP客户专线：</span>
@@ -73,7 +73,7 @@
                 </div>
               </div>
             </div>
-            
+
             <div class="info-group">
               <h4>💬 在线客服</h4>
               <div class="info-list">
@@ -95,7 +95,7 @@
                 </div>
               </div>
             </div>
-            
+
             <div class="info-group">
               <h4>📧 邮箱联系</h4>
               <div class="info-list">
@@ -114,42 +114,42 @@
               </div>
             </div>
           </div>
-          
+
           <div class="contact-form-section">
             <h2 class="section-title">在线留言</h2>
             <form class="contact-form" @submit.prevent="submitForm">
               <div class="form-group">
                 <label for="name">姓名 *</label>
-                <input 
-                  type="text" 
-                  id="name" 
-                  v-model="form.name" 
-                  required 
+                <input
+                  type="text"
+                  id="name"
+                  v-model="form.name"
+                  required
                   placeholder="请输入您的姓名"
                 >
               </div>
-              
+
               <div class="form-group">
                 <label for="phone">联系电话 *</label>
-                <input 
-                  type="tel" 
-                  id="phone" 
-                  v-model="form.phone" 
-                  required 
+                <input
+                  type="tel"
+                  id="phone"
+                  v-model="form.phone"
+                  required
                   placeholder="请输入您的联系电话"
                 >
               </div>
-              
+
               <div class="form-group">
                 <label for="email">邮箱</label>
-                <input 
-                  type="email" 
-                  id="email" 
-                  v-model="form.email" 
+                <input
+                  type="email"
+                  id="email"
+                  v-model="form.email"
                   placeholder="请输入您的邮箱地址"
                 >
               </div>
-              
+
               <div class="form-group">
                 <label for="service">服务类型</label>
                 <select id="service" v-model="form.service">
@@ -162,18 +162,18 @@
                   <option value="cooperation">商务合作</option>
                 </select>
               </div>
-              
+
               <div class="form-group">
                 <label for="message">留言内容 *</label>
-                <textarea 
-                  id="message" 
-                  v-model="form.message" 
-                  required 
-                  rows="5" 
+                <textarea
+                  id="message"
+                  v-model="form.message"
+                  required
+                  rows="5"
                   placeholder="请详细描述您的需求或问题，我们会尽快回复您"
                 ></textarea>
               </div>
-              
+
               <button type="submit" class="btn btn-primary btn-large" :disabled="submitting">
                 {{ submitting ? '提交中...' : '提交留言' }}
               </button>
@@ -188,7 +188,7 @@
       <div class="container">
         <h2 class="section-title" style="color: white;">服务时间与标准</h2>
         <p class="section-subtitle" style="color: rgba(255,255,255,0.8);">专业的服务团队，严格的服务标准，确保优质的客户体验</p>
-        
+
         <div class="grid grid-2">
           <div class="standard-card">
             <h4>🕒 服务时间</h4>
@@ -199,7 +199,7 @@
               <li><strong>紧急处理：</strong>7×24小时（重大问题）</li>
             </ul>
           </div>
-          
+
           <div class="standard-card">
             <h4>⭐ 服务标准</h4>
             <ul class="standard-list">
@@ -218,7 +218,7 @@
       <div class="container">
         <h2 class="section-title">客服团队</h2>
         <p class="section-subtitle">20人专业客服团队，为您提供全方位的服务支持</p>
-        
+
         <div class="team-overview">
           <div class="team-stats">
             <div class="stat-card">
@@ -259,7 +259,7 @@
               <p class="address-detail">联系电话：17663746514</p>
               <p class="address-detail">传真号码：027-82345678</p>
             </div>
-            
+
             <div class="business-hours">
               <h4>🕐 营业时间</h4>
               <p>周一至周五：9:00 - 18:00</p>
@@ -267,7 +267,7 @@
               <p class="note">法定节假日营业时间可能有所调整</p>
             </div>
           </div>
-          
+
           <div class="map-placeholder">
             <div class="map-container">
               <div class="map-icon">🗺️</div>
@@ -285,7 +285,7 @@
       <div class="container">
         <h2 class="section-title">关注我们</h2>
         <p class="section-subtitle">通过社交媒体与我们保持联系，获取最新动态和优惠信息</p>
-        
+
         <div class="social-grid">
           <div class="social-card">
             <div class="social-icon">📱</div>
@@ -293,21 +293,21 @@
             <p>@和信租赁平台</p>
             <p class="social-desc">最新产品资讯和行业动态</p>
           </div>
-          
+
           <div class="social-card">
             <div class="social-icon">📹</div>
             <h4>抖音官方账号</h4>
             <p>和信租手机</p>
             <p class="social-desc">精彩视频内容和产品展示</p>
           </div>
-          
+
           <div class="social-card">
             <div class="social-icon">💬</div>
             <h4>微信公众号</h4>
             <p>和信科技租赁</p>
             <p class="social-desc">专业资讯和客户服务</p>
           </div>
-          
+
           <div class="social-card">
             <div class="social-icon">👥</div>
             <h4>用户交流群</h4>
@@ -338,55 +338,55 @@ export default {
   methods: {
     openOnlineChat() {
       // 这里可以集成在线客服系统
-      alert('在线客服功能即将开放，请先拨打客服热线：400-888-1688')
+      alert('在线客服功能即将开放，请先拨打客服热线：400-888-xxxx')
     },
-    
+
     async submitForm() {
       if (!this.validateForm()) {
         return
       }
-      
+
       this.submitting = true
-      
+
       try {
         // 模拟提交表单
         await new Promise(resolve => setTimeout(resolve, 2000))
-        
+
         alert('留言提交成功！我们会在24小时内与您联系。')
         this.resetForm()
       } catch (error) {
-        alert('提交失败，请稍后重试或直接拨打客服热线：400-888-1688')
+        alert('提交失败，请稍后重试或直接拨打客服热线：400-888-xxxx')
       } finally {
         this.submitting = false
       }
     },
-    
+
     validateForm() {
       if (!this.form.name.trim()) {
         alert('请输入您的姓名')
         return false
       }
-      
+
       if (!this.form.phone.trim()) {
         alert('请输入您的联系电话')
         return false
       }
-      
+
       if (!this.form.message.trim()) {
         alert('请输入留言内容')
         return false
       }
-      
+
       // 简单的手机号验证
       const phoneRegex = /^1[3-9]\d{9}$/
       if (!phoneRegex.test(this.form.phone.replace(/\D/g, ''))) {
         alert('请输入正确的手机号码')
         return false
       }
-      
+
       return true
     },
-    
+
     resetForm() {
       this.form = {
         name: '',
@@ -397,7 +397,7 @@ export default {
       }
     }
   },
-  
+
   mounted() {
     // 添加滚动动画效果
     const observerOptions = {
@@ -780,37 +780,37 @@ export default {
   .page-header {
     padding: 100px 0 60px;
   }
-  
+
   .page-title {
     font-size: 2.5rem;
   }
-  
+
   .details-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-  
+
   .address-content {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-  
+
   .team-stats {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .social-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .contact-card {
     padding: 2rem 1.5rem;
   }
-  
+
   .main-number {
     font-size: 1.5rem;
   }
-  
+
   .btn-large {
     width: 100%;
   }

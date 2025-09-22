@@ -13,7 +13,7 @@
       <div class="container">
         <h2 class="section-title">我们的服务</h2>
         <p class="section-subtitle">三大核心业务板块，为您提供全方位的数码设备租赁解决方案</p>
-        
+
         <div class="grid grid-3">
           <div class="service-card featured">
             <div class="service-header">
@@ -36,7 +36,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="service-card">
             <div class="service-header">
               <div class="service-icon">💻</div>
@@ -57,7 +57,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="service-card">
             <div class="service-header">
               <div class="service-icon">🏢</div>
@@ -87,26 +87,26 @@
       <div class="container">
         <h2 class="section-title" style="color: white;">服务对象</h2>
         <p class="section-subtitle" style="color: rgba(255,255,255,0.8);">为不同群体提供专业的租赁解决方案</p>
-        
+
         <div class="grid grid-4">
           <div class="audience-card">
             <div class="audience-icon">👤</div>
             <h4>个人消费者</h4>
             <p>为个人用户提供最新款手机租赁服务，满足体验新机、临时使用等需求</p>
           </div>
-          
+
           <div class="audience-card">
             <div class="audience-icon">🏢</div>
             <h4>企业客户</h4>
             <p>为中小企业提供员工手机租赁、会议设备租赁等企业级服务</p>
           </div>
-          
+
           <div class="audience-card">
             <div class="audience-icon">🎓</div>
             <h4>学生群体</h4>
             <p>针对大学生群体提供经济实惠的手机租赁方案</p>
           </div>
-          
+
           <div class="audience-card">
             <div class="audience-icon">💼</div>
             <h4>商务人士</h4>
@@ -121,7 +121,7 @@
       <div class="container">
         <h2 class="section-title">租赁流程</h2>
         <p class="section-subtitle">简单四步，轻松完成设备租赁</p>
-        
+
         <div class="process-container">
           <div class="process-step">
             <div class="step-number">1</div>
@@ -130,9 +130,9 @@
               <p>浏览我们的设备库，选择您需要的手机或数码设备</p>
             </div>
           </div>
-          
+
           <div class="process-arrow">→</div>
-          
+
           <div class="process-step">
             <div class="step-number">2</div>
             <div class="step-content">
@@ -140,9 +140,9 @@
               <p>填写租赁信息，选择租期，提交租赁申请</p>
             </div>
           </div>
-          
+
           <div class="process-arrow">→</div>
-          
+
           <div class="process-step">
             <div class="step-number">3</div>
             <div class="step-content">
@@ -150,9 +150,9 @@
               <p>我们会快速审核您的申请，确认后安排发货</p>
             </div>
           </div>
-          
+
           <div class="process-arrow">→</div>
-          
+
           <div class="process-step">
             <div class="step-number">4</div>
             <div class="step-content">
@@ -169,11 +169,11 @@
       <div class="container">
         <h2 class="section-title">热门设备</h2>
         <p class="section-subtitle">精选最受欢迎的数码设备，满足您的不同需求</p>
-        
+
         <div class="device-categories">
           <div class="category-tabs">
-            <button 
-              v-for="category in categories" 
+            <button
+              v-for="category in categories"
               :key="category.id"
               :class="['tab-btn', { active: activeCategory === category.id }]"
               @click="activeCategory = category.id"
@@ -181,10 +181,10 @@
               {{ category.name }}
             </button>
           </div>
-          
+
           <div class="device-grid">
-            <div 
-              v-for="device in currentDevices" 
+            <div
+              v-for="device in currentDevices"
               :key="device.id"
               class="device-card"
             >
@@ -209,7 +209,7 @@
       <div class="container">
         <h2 class="section-title">服务保障</h2>
         <p class="section-subtitle">全方位的服务保障，让您租得安心，用得放心</p>
-        
+
         <div class="grid grid-3">
           <div class="guarantee-card">
             <div class="guarantee-icon">🛡️</div>
@@ -220,7 +220,7 @@
               <li>定期维护保养，延长设备寿命</li>
             </ul>
           </div>
-          
+
           <div class="guarantee-card">
             <div class="guarantee-icon">🔧</div>
             <h4>售后服务</h4>
@@ -230,7 +230,7 @@
               <li>专业技术团队远程协助</li>
             </ul>
           </div>
-          
+
           <div class="guarantee-card">
             <div class="guarantee-icon">📦</div>
             <h4>物流配送</h4>
@@ -251,7 +251,7 @@
           <h2>立即开始您的租赁之旅</h2>
           <p>专业的设备，优质的服务，合理的价格，让您体验不一样的数码生活</p>
           <div class="cta-actions">
-            <a href="tel:400-888-1688" class="btn btn-primary btn-large">咨询热线：400-888-1688</a>
+            <a href="tel:400-888-xxxx" class="btn btn-primary btn-large">咨询热线：400-888-xxxx</a>
             <router-link to="/contact" class="btn btn-outline btn-large">在线咨询</router-link>
           </div>
         </div>
@@ -712,47 +712,47 @@ export default {
   .page-header {
     padding: 100px 0 60px;
   }
-  
+
   .page-title {
     font-size: 2.5rem;
   }
-  
+
   .service-card.featured {
     transform: none;
   }
-  
+
   .service-card.featured:hover {
     transform: translateY(-10px);
   }
-  
+
   .process-container {
     flex-direction: column;
     gap: 2rem;
   }
-  
+
   .process-arrow {
     transform: rotate(90deg);
     margin: 1rem 0;
   }
-  
+
   .category-tabs {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .tab-btn {
     width: 200px;
   }
-  
+
   .device-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .cta-actions {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .btn-large {
     width: 100%;
     max-width: 300px;

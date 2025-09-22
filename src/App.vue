@@ -10,18 +10,18 @@
                 <div class="brand-logo">和信科技</div>
               </router-link>
             </div>
-            
+
             <div class="nav-menu" :class="{ active: mobileMenuOpen }">
               <router-link to="/" class="nav-link" @click="closeMobileMenu">首页</router-link>
               <router-link to="/about" class="nav-link" @click="closeMobileMenu">关于我们</router-link>
               <router-link to="/services" class="nav-link" @click="closeMobileMenu">产品服务</router-link>
               <router-link to="/contact" class="nav-link" @click="closeMobileMenu">联系我们</router-link>
             </div>
-            
+
             <div class="nav-actions">
-              <a href="tel:400-888-1688" class="btn btn-primary">400-888-1688</a>
+              <a href="tel:400-888-xxxx" class="btn btn-primary">400-888-xxxx</a>
             </div>
-            
+
             <div class="mobile-menu-toggle" @click="toggleMobileMenu">
               <span></span>
               <span></span>
@@ -50,7 +50,7 @@
               <a href="#" class="social-link">抖音</a>
             </div>
           </div>
-          
+
           <div class="footer-section">
             <h4 class="footer-subtitle">产品服务</h4>
             <ul class="footer-links">
@@ -60,7 +60,7 @@
               <li><a href="/services">设备回收</a></li>
             </ul>
           </div>
-          
+
           <div class="footer-section">
             <h4 class="footer-subtitle">公司信息</h4>
             <ul class="footer-links">
@@ -70,23 +70,23 @@
               <li><a href="/contact">加入我们</a></li>
             </ul>
           </div>
-          
+
           <div class="footer-section">
             <h4 class="footer-subtitle">联系我们</h4>
             <div class="contact-info">
-              <p>📞 客服热线：400-888-1688</p>
+              <p>📞 客服热线：400-888-xxxx</p>
               <p>📧 邮箱：info@hexinkj.com</p>
               <p>📍 地址：湖北省武汉市江岸区新华路396号</p>
             </div>
           </div>
         </div>
-        
+
         <div class="footer-bottom">
           <div class="footer-copyright">
             <p>&copy; 2025 武汉和信科技有限公司 版权所有</p>
             <p>
-              <a href="#" class="footer-link">鄂ICP备2025140712号-3</a> | 
-              <a href="#" class="footer-link">隐私政策</a> | 
+              <a href="#" class="footer-link">鄂ICP备2025140712号-3</a> |
+              <a href="#" class="footer-link">隐私政策</a> |
               <a href="#" class="footer-link">服务条款</a>
             </p>
           </div>

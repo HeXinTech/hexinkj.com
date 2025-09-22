@@ -14,7 +14,7 @@
               手机、平板、笔记本等数码设备一站式租赁服务
             </p>
             <div class="hero-actions fade-in-up">
-              <a href="tel:400-888-1688" class="btn btn-primary">立即咨询</a>
+              <a href="tel:400-888-xxxx" class="btn btn-primary">立即咨询</a>
               <router-link to="/services" class="btn btn-outline">了解服务</router-link>
             </div>
           </div>
@@ -36,7 +36,7 @@
       <div class="container">
         <h2 class="section-title">核心业务</h2>
         <p class="section-subtitle">专注移动设备租赁领域，为个人和企业提供全方位的数码设备租赁服务</p>
-        
+
         <div class="grid grid-3">
           <div class="card service-card">
             <div class="icon">📱</div>
@@ -48,7 +48,7 @@
               <li>✓ 专业售后服务</li>
             </ul>
           </div>
-          
+
           <div class="card service-card">
             <div class="icon">💻</div>
             <h3>数码设备租赁</h3>
@@ -59,7 +59,7 @@
               <li>✓ 专业技术支持</li>
             </ul>
           </div>
-          
+
           <div class="card service-card">
             <div class="icon">🏢</div>
             <h3>企业租赁方案</h3>
@@ -79,26 +79,26 @@
       <div class="container">
         <h2 class="section-title" style="color: white;">为什么选择和信科技</h2>
         <p class="section-subtitle" style="color: rgba(255,255,255,0.8);">专业团队，贴心服务，让您的租赁体验更加安心便捷</p>
-        
+
         <div class="grid grid-4">
           <div class="advantage-item">
             <div class="advantage-icon">🔒</div>
             <h4>安全可靠</h4>
             <p>SSL加密传输，用户信息脱敏处理，支付安全认证，全方位保障用户数据安全</p>
           </div>
-          
+
           <div class="advantage-item">
             <div class="advantage-icon">⚡</div>
             <h4>快速响应</h4>
             <p>7×24小时客服服务，1分钟内在线响应，24小时内问题处理完毕</p>
           </div>
-          
+
           <div class="advantage-item">
             <div class="advantage-icon">💰</div>
             <h4>价格透明</h4>
             <p>无隐形收费，租金透明公开，支持多种支付方式，让您租得放心</p>
           </div>
-          
+
           <div class="advantage-item">
             <div class="advantage-icon">🚚</div>
             <h4>快速配送</h4>
@@ -137,7 +137,7 @@
       <div class="container">
         <h2 class="section-title">合作伙伴</h2>
         <p class="section-subtitle">与知名品牌深度合作，为用户提供优质的产品和服务</p>
-        
+
         <div class="partners-grid">
           <div class="partner-item">
             <div class="partner-logo">华为</div>
@@ -168,7 +168,7 @@
           <h2>开始您的租赁体验</h2>
           <p>专业客服团队为您提供一对一服务，立即联系我们获取专属租赁方案</p>
           <div class="cta-actions">
-            <a href="tel:400-888-1688" class="btn btn-primary btn-large">400-888-1688</a>
+            <a href="tel:400-888-xxxx" class="btn btn-primary btn-large">400-888-xxxx</a>
             <router-link to="/contact" class="btn btn-outline btn-large">在线咨询</router-link>
           </div>
         </div>
@@ -428,38 +428,38 @@ export default {
   .hero {
     padding: 100px 0 60px;
   }
-  
+
   .hero-content {
     grid-template-columns: 1fr;
     gap: 2rem;
     text-align: center;
   }
-  
+
   .hero-title {
     font-size: 2.5rem;
   }
-  
+
   .hero-actions {
     justify-content: center;
   }
-  
+
   .device-showcase {
     height: 200px;
   }
-  
+
   .device {
     font-size: 2.5rem;
   }
-  
+
   .partners-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .cta-actions {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .btn-large {
     width: 100%;
     max-width: 300px;
