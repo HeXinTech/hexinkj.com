@@ -1,0 +1,23 @@
+{
+  "name": "hexinkj-portal",
+  "version": "1.0.0",
+  "description": "和信科技官方门户网站",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "axios": "^1.6.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0"
+  },
+  "keywords": ["hexinkj", "和信科技", "租赁平台", "门户网站"],
+  "author": "和信科技",
+  "license": "MIT"
+}
