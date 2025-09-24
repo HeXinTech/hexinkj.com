@@ -85,7 +85,7 @@
           <div class="footer-copyright">
             <p>&copy; 2025 武汉和信科技有限公司 版权所有</p>
             <p>
-              <a href="#" class="footer-link">鄂ICP备2025140712号-3</a> |
+              备案号：<a href="https://beian.miit.gov.cn/shouye.html" class="footer-link">鄂ICP备2025140712号-3</a> |
               <a href="#" class="footer-link">隐私政策</a> |
               <a href="#" class="footer-link">服务条款</a>
             </p>
