@@ -4,7 +4,7 @@
     <section class="page-header">
       <div class="container">
         <h1 class="page-title">产品服务</h1>
-        <p class="page-subtitle">专业的移动设备租赁服务，满足个人和企业的多样化需求</p>
+        <p class="page-subtitle">软件研发、数码产品销售与智能租赁一体化解决方案</p>
       </div>
     </section>
 
@@ -12,69 +12,69 @@
     <section class="section services-overview">
       <div class="container">
         <h2 class="section-title">我们的服务</h2>
-        <p class="section-subtitle">三大核心业务板块，为您提供全方位的数码设备租赁解决方案</p>
+        <p class="section-subtitle">三大核心业务板块，助力企业快速完成数字化建设与运营</p>
 
         <div class="grid grid-3">
           <div class="service-card featured">
             <div class="service-header">
-              <div class="service-icon">📱</div>
-              <h3>手机租赁平台</h3>
-              <div class="service-badge">热门服务</div>
+              <div class="service-icon">🧠</div>
+              <h3>软件研发服务</h3>
+              <div class="service-badge">核心业务</div>
             </div>
             <div class="service-content">
-              <p class="service-desc">提供专业的手机租赁服务平台，连接手机供应商与租赁用户</p>
+              <p class="service-desc">面向企业提供定制化软件平台、移动应用与后台系统研发，实现业务数字化。</p>
               <ul class="service-features">
-                <li>✓ 支持iPhone、华为、小米、OPPO、vivo等主流品牌</li>
-                <li>✓ 提供交易撮合、资金托管、争议调解等服务</li>
-                <li>✓ 全新正品保障，专业售后服务</li>
-                <li>✓ 灵活租期选择，按需租赁</li>
+                <li>✓ 业务咨询与架构设计</li>
+                <li>✓ Web、移动端、小程序全覆盖</li>
+                <li>✓ 云原生与微服务治理</li>
+                <li>✓ DevOps持续交付体系</li>
               </ul>
               <div class="service-pricing">
-                <span class="price-from">租金从</span>
-                <span class="price-amount">¥99/月</span>
-                <span class="price-desc">起</span>
+                <span class="price-from">典型周期</span>
+                <span class="price-amount">4-12周</span>
+                <span class="price-desc">按项目规模定制</span>
               </div>
             </div>
           </div>
 
           <div class="service-card">
             <div class="service-header">
-              <div class="service-icon">💻</div>
-              <h3>数码设备租赁</h3>
+              <div class="service-icon">🖥️</div>
+              <h3>数码产品销售与集成</h3>
             </div>
             <div class="service-content">
-              <p class="service-desc">平板电脑、笔记本电脑、智能手表、耳机等配件租赁服务</p>
+              <p class="service-desc">提供主流品牌数码产品采购、部署、调试与培训，支撑企业方案快速上线。</p>
               <ul class="service-features">
-                <li>✓ 平板电脑、笔记本电脑租赁</li>
-                <li>✓ 智能手表、耳机等配件租赁</li>
-                <li>✓ 摄影设备、游戏设备租赁</li>
-                <li>✓ 短期、中期、长期租赁方案</li>
+                <li>✓ 原厂产品直采通道</li>
+                <li>✓ 场景化选型与组合</li>
+                <li>✓ 上门部署与调试</li>
+                <li>✓ 交付培训与验收</li>
               </ul>
               <div class="service-pricing">
-                <span class="price-from">租金从</span>
-                <span class="price-amount">¥199/月</span>
-                <span class="price-desc">起</span>
+                <span class="price-from">服务特色</span>
+                <span class="price-amount">全程托管</span>
+                <span class="price-desc">同城快速响应</span>
               </div>
             </div>
           </div>
 
           <div class="service-card">
             <div class="service-header">
-              <div class="service-icon">🏢</div>
-              <h3>企业租赁方案</h3>
+              <div class="service-icon">🤝</div>
+              <h3>智能租赁与托管</h3>
             </div>
             <div class="service-content">
-              <p class="service-desc">为企业提供批量设备租赁服务和企业级解决方案</p>
+              <p class="service-desc">以灵活租赁、设备托管与维护服务满足阶段性项目与活动所需硬件资源。</p>
               <ul class="service-features">
-                <li>✓ 员工手机租赁管理系统</li>
-                <li>✓ 设备生命周期管理服务</li>
-                <li>✓ 企业级售后支持和维护</li>
-                <li>✓ 批量优惠价格和定制化服务</li>
+                <li>✓ 租期灵活可调</li>
+                <li>✓ 资产可视化管理平台</li>
+                <li>✓ 备机与运维支持</li>
+                <li>✓ 支持活动与短期项目</li>
               </ul>
               <div class="service-pricing">
-                <span class="price-from">批量优惠</span>
-                <span class="price-amount">定制报价</span>
-                <span class="price-desc"></span>
+                <span class="price-from">租期类型</span>
+                <span class="price-amount">月/季/年</span>
+                <span class="price-desc">灵活组合</span>
               </div>
             </div>
           </div>
@@ -86,48 +86,48 @@
     <section class="section target-audience gradient-bg">
       <div class="container">
         <h2 class="section-title" style="color: white;">服务对象</h2>
-        <p class="section-subtitle" style="color: rgba(255,255,255,0.8);">为不同群体提供专业的租赁解决方案</p>
+        <p class="section-subtitle" style="color: rgba(255,255,255,0.8);">为不同阶段的企业与机构提供定制化数字化方案</p>
 
         <div class="grid grid-4">
           <div class="audience-card">
             <div class="audience-icon">👤</div>
-            <h4>个人消费者</h4>
-            <p>为个人用户提供最新款手机租赁服务，满足体验新机、临时使用等需求</p>
+            <h4>政企客户</h4>
+            <p>面向政府、事业单位及大型企业，提供业务平台研发与数码终端集成。</p>
           </div>
 
           <div class="audience-card">
             <div class="audience-icon">🏢</div>
-            <h4>企业客户</h4>
-            <p>为中小企业提供员工手机租赁、会议设备租赁等企业级服务</p>
+            <h4>高成长企业</h4>
+            <p>为创新型企业与初创团队打造灵活、可扩展的数字化基础设施。</p>
           </div>
 
           <div class="audience-card">
             <div class="audience-icon">🎓</div>
-            <h4>学生群体</h4>
-            <p>针对大学生群体提供经济实惠的手机租赁方案</p>
+            <h4>教育与培训机构</h4>
+            <p>支持智慧校园、线上教学等场景的软件平台与终端部署。</p>
           </div>
 
           <div class="audience-card">
             <div class="audience-icon">💼</div>
-            <h4>商务人士</h4>
-            <p>为商务人士提供高端手机租赁和快速换机服务</p>
+            <h4>渠道合作伙伴</h4>
+            <p>联合行业渠道伙伴，共建数码产品供应与租赁生态，拓展服务边界。</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 租赁流程 -->
+    <!-- 项目流程 -->
     <section class="section rental-process">
       <div class="container">
-        <h2 class="section-title">租赁流程</h2>
-        <p class="section-subtitle">简单四步，轻松完成设备租赁</p>
+        <h2 class="section-title">项目合作流程</h2>
+        <p class="section-subtitle">标准化交付流程，确保项目高质量上线并稳定运行</p>
 
         <div class="process-container">
           <div class="process-step">
             <div class="step-number">1</div>
             <div class="step-content">
-              <h4>选择设备</h4>
-              <p>浏览我们的设备库，选择您需要的手机或数码设备</p>
+              <h4>需求沟通</h4>
+              <p>深入了解业务场景，梳理系统目标与终端交付需求，确定合作范围。</p>
             </div>
           </div>
 
@@ -136,8 +136,8 @@
           <div class="process-step">
             <div class="step-number">2</div>
             <div class="step-content">
-              <h4>提交订单</h4>
-              <p>填写租赁信息，选择租期，提交租赁申请</p>
+              <h4>方案设计</h4>
+              <p>完成技术方案、产品选型与实施计划，明确交付周期与里程碑。</p>
             </div>
           </div>
 
@@ -146,8 +146,8 @@
           <div class="process-step">
             <div class="step-number">3</div>
             <div class="step-content">
-              <h4>审核确认</h4>
-              <p>我们会快速审核您的申请，确认后安排发货</p>
+              <h4>研发交付</h4>
+              <p>按计划完成开发、集成与测试，提供阶段性验收与培训。</p>
             </div>
           </div>
 
@@ -156,19 +156,19 @@
           <div class="process-step">
             <div class="step-number">4</div>
             <div class="step-content">
-              <h4>收货使用</h4>
-              <p>收到设备后即可开始使用，享受优质的租赁体验</p>
+              <h4>运营支持</h4>
+              <p>提供运维托管、租赁配套与持续优化支持，保障系统稳定运行。</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 热门设备 -->
+    <!-- 热门方案 -->
     <section class="section popular-devices">
       <div class="container">
-        <h2 class="section-title">热门设备</h2>
-        <p class="section-subtitle">精选最受欢迎的数码设备，满足您的不同需求</p>
+        <h2 class="section-title">热门方案</h2>
+        <p class="section-subtitle">精选成熟的软件产品与数码设备组合，快速满足您的业务需求</p>
 
         <div class="device-categories">
           <div class="category-tabs">
@@ -184,19 +184,19 @@
 
           <div class="device-grid">
             <div
-              v-for="device in currentDevices"
-              :key="device.id"
+              v-for="solution in currentSolutions"
+              :key="solution.id"
               class="device-card"
             >
-              <div class="device-image">{{ device.emoji }}</div>
+              <div class="device-image">{{ solution.icon }}</div>
               <div class="device-info">
-                <h4 class="device-name">{{ device.name }}</h4>
-                <p class="device-specs">{{ device.specs }}</p>
+                <h4 class="device-name">{{ solution.name }}</h4>
+                <p class="device-specs">{{ solution.desc }}</p>
                 <div class="device-price">
-                  <span class="price">¥{{ device.price }}/月</span>
-                  <span class="original-price" v-if="device.originalPrice">¥{{ device.originalPrice }}</span>
+                  <span class="price">周期：{{ solution.cycle }}</span>
+                  <span class="original-price" v-if="solution.highlight">{{ solution.highlight }}</span>
                 </div>
-                <button class="btn btn-primary btn-small">立即租赁</button>
+                <button class="btn btn-primary btn-small">了解方案</button>
               </div>
             </div>
           </div>
@@ -208,36 +208,36 @@
     <section class="section service-guarantee">
       <div class="container">
         <h2 class="section-title">服务保障</h2>
-        <p class="section-subtitle">全方位的服务保障，让您租得安心，用得放心</p>
+        <p class="section-subtitle">一站式交付体系，保障软件研发、产品供应与租赁运维协同开展</p>
 
         <div class="grid grid-3">
           <div class="guarantee-card">
             <div class="guarantee-icon">🛡️</div>
-            <h4>品质保障</h4>
+            <h4>技术保障</h4>
             <ul>
-              <li>全新正品设备，品质有保障</li>
-              <li>专业检测，确保设备正常运行</li>
-              <li>定期维护保养，延长设备寿命</li>
+              <li>资深架构师全程参与设计与评审</li>
+              <li>完善的编码规范与自动化测试体系</li>
+              <li>提供安全合规与性能优化建议</li>
             </ul>
           </div>
 
           <div class="guarantee-card">
-            <div class="guarantee-icon">🔧</div>
-            <h4>售后服务</h4>
+            <div class="guarantee-icon">🧪</div>
+            <h4>质量管理</h4>
             <ul>
-              <li>7×24小时客服支持</li>
-              <li>设备故障免费维修更换</li>
-              <li>专业技术团队远程协助</li>
+              <li>多阶段验收与演示，透明掌控项目进度</li>
+              <li>严格供应商筛选与产品抽检流程</li>
+              <li>上线前全链路排查，确保平稳切换</li>
             </ul>
           </div>
 
           <div class="guarantee-card">
-            <div class="guarantee-icon">📦</div>
-            <h4>物流配送</h4>
+            <div class="guarantee-icon">🤝</div>
+            <h4>持续服务</h4>
             <ul>
-              <li>与顺丰、京东物流合作</li>
-              <li>同城当日达，异地次日达</li>
-              <li>免费配送上门，包装回收</li>
+              <li>提供运维托管与远程协助</li>
+              <li>租赁设备定期巡检与保养</li>
+              <li>专属客户成功团队跟进优化</li>
             </ul>
           </div>
         </div>
@@ -248,8 +248,8 @@
     <section class="section cta gradient-bg">
       <div class="container">
         <div class="cta-content">
-          <h2>立即开始您的租赁之旅</h2>
-          <p>专业的设备，优质的服务，合理的价格，让您体验不一样的数码生活</p>
+          <h2>规划您的数字化升级路径</h2>
+          <p>获取定制化的软件研发与终端交付方案，让业务创新更快、更稳、更可持续。</p>
           <div class="cta-actions">
             <a href="tel:400-888-xxxx" class="btn btn-primary btn-large">咨询热线：400-888-xxxx</a>
             <router-link to="/contact" class="btn btn-outline btn-large">在线咨询</router-link>
@@ -265,46 +265,44 @@ export default {
   name: 'Services',
   data() {
     return {
-      activeCategory: 'phones',
+      activeCategory: 'software',
       categories: [
-        { id: 'phones', name: '手机' },
-        { id: 'tablets', name: '平板' },
-        { id: 'laptops', name: '笔记本' },
-        { id: 'accessories', name: '配件' }
+        { id: 'software', name: '软件平台' },
+        { id: 'hardware', name: '数码终端' },
+        { id: 'leasing', name: '租赁托管' },
+        { id: 'industry', name: '行业方案' }
       ],
-      devices: {
-        phones: [
-          { id: 1, name: 'iPhone 15 Pro', specs: '256GB 钛原色', price: 299, originalPrice: 399, emoji: '📱' },
-          { id: 2, name: '华为 Mate 60 Pro', specs: '512GB 雅川青', price: 259, originalPrice: 329, emoji: '📱' },
-          { id: 3, name: '小米 14 Ultra', specs: '512GB 钛金属', price: 239, originalPrice: 299, emoji: '📱' },
-          { id: 4, name: 'OPPO Find X7', specs: '256GB 大漠银月', price: 199, originalPrice: 259, emoji: '📱' },
-          { id: 5, name: 'vivo X100 Pro', specs: '512GB 星迹蓝', price: 219, originalPrice: 279, emoji: '📱' },
-          { id: 6, name: '三星 Galaxy S24', specs: '256GB 钛灰色', price: 229, originalPrice: 289, emoji: '📱' }
+      solutions: {
+        software: [
+          { id: 1, name: '企业信息化平台', desc: 'CRM/ERP/进销存一体化平台，支持多端协同', cycle: '4-12周', highlight: '支持私有化部署', icon: '🧩' },
+          { id: 2, name: '移动办公套件', desc: '移动审批、公告、考勤等移动端应用建设', cycle: '3-8周', highlight: 'iOS/Android/小程序全覆盖', icon: '📲' },
+          { id: 3, name: '行业数据中台', desc: '构建数据采集、分析与可视化能力，提升决策效率', cycle: '6-16周', highlight: '含数据可视化大屏', icon: '📊' },
+          { id: 4, name: '客户服务平台', desc: '在线客服、工单、知识库一体化，提升客户满意度', cycle: '4-10周', highlight: '支持多渠道接入', icon: '🤖' }
         ],
-        tablets: [
-          { id: 7, name: 'iPad Pro 12.9', specs: '256GB WiFi版', price: 199, originalPrice: 259, emoji: '📱' },
-          { id: 8, name: '华为 MatePad Pro', specs: '256GB 5G版', price: 159, originalPrice: 199, emoji: '📱' },
-          { id: 9, name: '小米 Pad 6 Max', specs: '256GB WiFi版', price: 129, originalPrice: 169, emoji: '📱' },
-          { id: 10, name: 'Surface Pro 9', specs: '256GB i5版', price: 249, originalPrice: 319, emoji: '📱' }
+        hardware: [
+          { id: 5, name: '智慧终端套装', desc: '笔记本、平板、智能配件组合交付，满足办公场景', cycle: '最快72小时', highlight: '含上门部署', icon: '💻' },
+          { id: 6, name: '会议协作套件', desc: '视频会议终端、互动大屏、音视频配件一体化部署', cycle: '5-10天', highlight: '提供培训手册', icon: '📽️' },
+          { id: 7, name: '门店数字化设备', desc: '收银机、自助终端、数字标牌组合，实现智慧门店', cycle: '7-14天', highlight: '含SaaS系统对接', icon: '🛍️' },
+          { id: 8, name: '教育教学装备', desc: '平板车、电子白板、录播系统齐备，助力教学升级', cycle: '10-20天', highlight: '支持集中维护', icon: '🎓' }
         ],
-        laptops: [
-          { id: 11, name: 'MacBook Pro 14', specs: 'M3 Pro 512GB', price: 399, originalPrice: 499, emoji: '💻' },
-          { id: 12, name: '华为 MateBook X', specs: 'i7 512GB', price: 299, originalPrice: 379, emoji: '💻' },
-          { id: 13, name: 'ThinkPad X1 Carbon', specs: 'i7 1TB', price: 349, originalPrice: 429, emoji: '💻' },
-          { id: 14, name: 'Dell XPS 13', specs: 'i7 512GB', price: 279, originalPrice: 349, emoji: '💻' }
+        leasing: [
+          { id: 9, name: '活动短租套装', desc: '大型活动/展会所需终端设备短期租赁与现场支持', cycle: '租期3-30天', highlight: '含现场工程师保障', icon: '🎪' },
+          { id: 10, name: '员工弹性租赁', desc: '为新入职员工快速配置终端，支持快速更换与回收', cycle: '按月结算', highlight: '设备生命周期管理', icon: '👥' },
+          { id: 11, name: '测试设备云仓', desc: '提供多品牌终端测试机与环境，适配软件研发测试', cycle: '随租随用', highlight: '支持远程调度', icon: '🧪' },
+          { id: 12, name: '备机托管服务', desc: '为关键岗位配置备机并提供巡检与保养服务', cycle: '按年服务', highlight: '季度巡检报告', icon: '🧰' }
         ],
-        accessories: [
-          { id: 15, name: 'Apple Watch Ultra', specs: '49mm 钛金属', price: 99, originalPrice: 129, emoji: '⌚' },
-          { id: 16, name: 'AirPods Pro 2', specs: '主动降噪', price: 39, originalPrice: 49, emoji: '🎧' },
-          { id: 17, name: '华为 FreeBuds Pro', specs: '主动降噪', price: 29, originalPrice: 39, emoji: '🎧' },
-          { id: 18, name: 'Sony WH-1000XM5', specs: '头戴式降噪', price: 59, originalPrice: 79, emoji: '🎧' }
+        industry: [
+          { id: 13, name: '智慧园区平台', desc: '集成门禁、停车、巡更等场景，打造园区数字底座', cycle: '8-20周', highlight: '支持IoT设备接入', icon: '🏙️' },
+          { id: 14, name: '医疗移动查房', desc: '为医院提供移动查房系统与终端硬件组合', cycle: '6-12周', highlight: '符合医疗数据合规', icon: '🩺' },
+          { id: 15, name: '制造现场数字化', desc: 'MES看板、工业平板、防护终端整体解决方案', cycle: '10-18周', highlight: '兼容工业协议', icon: '🏭' },
+          { id: 16, name: '智慧校园平台', desc: '综合门户、教学管理与终端设备方案，提升教育管理效率', cycle: '6-16周', highlight: '支持多校区部署', icon: '🏫' }
         ]
       }
     }
   },
   computed: {
-    currentDevices() {
-      return this.devices[this.activeCategory] || []
+    currentSolutions() {
+      return this.solutions[this.activeCategory] || []
     }
   },
   mounted() {

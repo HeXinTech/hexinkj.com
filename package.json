@@ -17,7 +17,7 @@
     "@vitejs/plugin-vue": "^5.0.4",
     "vite": "^5.2.0"
   },
-  "keywords": ["hexinkj", "和信科技", "租赁平台", "门户网站"],
+  "keywords": ["hexinkj", "和信科技", "软件研发", "数码产品销售", "智能租赁"],
   "author": "和信科技",
   "license": "MIT"
 }

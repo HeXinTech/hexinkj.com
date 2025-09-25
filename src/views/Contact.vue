@@ -4,7 +4,7 @@
     <section class="page-header">
       <div class="container">
         <h1 class="page-title">联系我们</h1>
-        <p class="page-subtitle">专业的客服团队，7×24小时为您提供优质服务</p>
+        <p class="page-subtitle">整合软件研发、数码产品与智能租赁的专业团队，随时为您提供支持</p>
       </div>
     </section>
 
@@ -154,9 +154,10 @@
                 <label for="service">服务类型</label>
                 <select id="service" v-model="form.service">
                   <option value="">请选择服务类型</option>
-                  <option value="phone-rental">手机租赁</option>
-                  <option value="device-rental">数码设备租赁</option>
-                  <option value="enterprise">企业租赁方案</option>
+                  <option value="software">软件研发咨询</option>
+                  <option value="product">数码产品采购</option>
+                  <option value="leasing">智能租赁托管</option>
+                  <option value="solution">行业解决方案</option>
                   <option value="support">技术支持</option>
                   <option value="complaint">投诉建议</option>
                   <option value="cooperation">商务合作</option>
@@ -290,21 +291,21 @@
           <div class="social-card">
             <div class="social-icon">📱</div>
             <h4>官方微博</h4>
-            <p>@和信租赁平台</p>
-            <p class="social-desc">最新产品资讯和行业动态</p>
+            <p>@和信数字化服务</p>
+            <p class="social-desc">最新的软件与终端方案动态</p>
           </div>
 
           <div class="social-card">
             <div class="social-icon">📹</div>
             <h4>抖音官方账号</h4>
-            <p>和信租手机</p>
-            <p class="social-desc">精彩视频内容和产品展示</p>
+            <p>和信科技数码</p>
+            <p class="social-desc">产品交付案例与客户故事</p>
           </div>
 
           <div class="social-card">
             <div class="social-icon">💬</div>
             <h4>微信公众号</h4>
-            <p>和信科技租赁</p>
+            <p>和信数字化</p>
             <p class="social-desc">专业资讯和客户服务</p>
           </div>
 

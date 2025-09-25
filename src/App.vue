@@ -43,7 +43,7 @@
         <div class="footer-content">
           <div class="footer-section">
             <h3 class="footer-title">和信科技</h3>
-            <p class="footer-desc">专业的移动设备租赁服务平台，让每个人都能以最经济的方式体验最新科技产品。</p>
+            <p class="footer-desc">专注软件研发、数码产品销售与智能租赁服务，帮助企业快速实现数字化升级。</p>
             <div class="social-links">
               <a href="#" class="social-link">微信</a>
               <a href="#" class="social-link">微博</a>
@@ -54,10 +54,10 @@
           <div class="footer-section">
             <h4 class="footer-subtitle">产品服务</h4>
             <ul class="footer-links">
-              <li><a href="/services">手机租赁</a></li>
-              <li><a href="/services">数码设备租赁</a></li>
-              <li><a href="/services">企业租赁方案</a></li>
-              <li><a href="/services">设备回收</a></li>
+              <li><a href="/services">软件研发服务</a></li>
+              <li><a href="/services">数码产品销售</a></li>
+              <li><a href="/services">智能租赁托管</a></li>
+              <li><a href="/services">行业解决方案</a></li>
             </ul>
           </div>
 

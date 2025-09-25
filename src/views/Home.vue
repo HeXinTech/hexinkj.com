@@ -6,16 +6,16 @@
         <div class="hero-content">
           <div class="hero-text">
             <h1 class="hero-title fade-in-up">
-              专业的移动设备<br>
-              <span class="gradient-text">租赁服务平台</span>
+              企业级软件研发<br>
+              <span class="gradient-text">与数码产品解决方案</span>
             </h1>
             <p class="hero-subtitle fade-in-up">
-              让每个人都能以最经济的方式体验最新科技产品<br>
-              手机、平板、笔记本等数码设备一站式租赁服务
+              提供定制化软件平台建设、移动应用开发以及数码产品选型交付，
+              配套智能租赁与运维能力，助力企业数字化升级。
             </p>
             <div class="hero-actions fade-in-up">
-              <a href="tel:400-888-xxxx" class="btn btn-primary">立即咨询</a>
-              <router-link to="/services" class="btn btn-outline">了解服务</router-link>
+              <a href="tel:400-888-xxxx" class="btn btn-primary">预约咨询</a>
+              <router-link to="/services" class="btn btn-outline">获取方案</router-link>
             </div>
           </div>
           <div class="hero-image">
@@ -35,39 +35,39 @@
     <section class="section services-overview">
       <div class="container">
         <h2 class="section-title">核心业务</h2>
-        <p class="section-subtitle">专注移动设备租赁领域，为个人和企业提供全方位的数码设备租赁服务</p>
+        <p class="section-subtitle">聚焦软件研发与数码产品销售，辅以智能租赁服务打造端到端数字化能力</p>
 
         <div class="grid grid-3">
           <div class="card service-card">
             <div class="icon">📱</div>
-            <h3>手机租赁平台</h3>
-            <p>提供iPhone、华为、小米、OPPO、vivo等主流品牌手机租赁服务，支持短期、中期、长期租赁方案</p>
+            <h3>软件研发服务</h3>
+            <p>覆盖企业管理系统、垂直行业平台、移动端与小程序开发，按需定制业务功能。</p>
             <ul class="service-features">
-              <li>✓ 全新正品手机</li>
-              <li>✓ 灵活租期选择</li>
-              <li>✓ 专业售后服务</li>
+              <li>✓ 业务系统定制开发</li>
+              <li>✓ 云原生与微服务架构</li>
+              <li>✓ 移动端与小程序建设</li>
             </ul>
           </div>
 
           <div class="card service-card">
             <div class="icon">💻</div>
-            <h3>数码设备租赁</h3>
-            <p>平板电脑、笔记本电脑、智能手表、耳机等配件租赁，满足不同场景使用需求</p>
+            <h3>数码产品销售与集成</h3>
+            <p>提供主流数码产品采购、方案设计与部署，保障项目快速落地。</p>
             <ul class="service-features">
-              <li>✓ 设备种类丰富</li>
-              <li>✓ 快速配送服务</li>
-              <li>✓ 专业技术支持</li>
+              <li>✓ 智能终端与配件供应</li>
+              <li>✓ 场景化解决方案设计</li>
+              <li>✓ 物流交付与上门安装</li>
             </ul>
           </div>
 
           <div class="card service-card">
             <div class="icon">🏢</div>
-            <h3>企业租赁方案</h3>
-            <p>为企业提供批量设备租赁服务，包括员工手机管理、会议设备租赁等企业级解决方案</p>
+            <h3>智能租赁与运维</h3>
+            <p>通过柔性租赁、设备运维与资产管理服务，补足企业项目实施过程中的短期需求。</p>
             <ul class="service-features">
-              <li>✓ 批量优惠价格</li>
-              <li>✓ 统一管理平台</li>
-              <li>✓ 定制化服务</li>
+              <li>✓ 灵活租赁组合</li>
+              <li>✓ 设备全生命周期管理</li>
+              <li>✓ 7×24专业运维支撑</li>
             </ul>
           </div>
         </div>
@@ -78,31 +78,31 @@
     <section class="section advantages gradient-bg">
       <div class="container">
         <h2 class="section-title" style="color: white;">为什么选择和信科技</h2>
-        <p class="section-subtitle" style="color: rgba(255,255,255,0.8);">专业团队，贴心服务，让您的租赁体验更加安心便捷</p>
+        <p class="section-subtitle" style="color: rgba(255,255,255,0.8);">软件研发、产品供应与服务交付三位一体，保障企业数字化项目成功落地</p>
 
         <div class="grid grid-4">
           <div class="advantage-item">
-            <div class="advantage-icon">🔒</div>
-            <h4>安全可靠</h4>
-            <p>SSL加密传输，用户信息脱敏处理，支付安全认证，全方位保障用户数据安全</p>
+            <div class="advantage-icon">🧠</div>
+            <h4>全栈研发能力</h4>
+            <p>覆盖需求咨询、架构设计、开发测试与上线运维，提供端到端技术服务</p>
           </div>
 
           <div class="advantage-item">
-            <div class="advantage-icon">⚡</div>
-            <h4>快速响应</h4>
-            <p>7×24小时客服服务，1分钟内在线响应，24小时内问题处理完毕</p>
+            <div class="advantage-icon">⚙️</div>
+            <h4>方案交付效率</h4>
+            <p>成熟的项目管理体系与敏捷流程，快速迭代满足不同行业客户需求</p>
           </div>
 
           <div class="advantage-item">
-            <div class="advantage-icon">💰</div>
-            <h4>价格透明</h4>
-            <p>无隐形收费，租金透明公开，支持多种支付方式，让您租得放心</p>
+            <div class="advantage-icon">🔗</div>
+            <h4>品质供应链</h4>
+            <p>与品牌厂商深度合作，提供原厂产品与配套配件，确保交付品质可控</p>
           </div>
 
           <div class="advantage-item">
-            <div class="advantage-icon">🚚</div>
-            <h4>快速配送</h4>
-            <p>与顺丰、京东物流合作，同城当日达，异地次日达，免费配送上门</p>
+            <div class="advantage-icon">🤝</div>
+            <h4>服务保障</h4>
+            <p>提供培训、售后与租赁运维服务，让客户专注核心业务</p>
           </div>
         </div>
       </div>
@@ -165,8 +165,8 @@
     <section class="section cta">
       <div class="container">
         <div class="cta-content">
-          <h2>开始您的租赁体验</h2>
-          <p>专业客服团队为您提供一对一服务，立即联系我们获取专属租赁方案</p>
+          <h2>开启数字化升级</h2>
+          <p>与我们一起规划软件研发与数码产品交付方案，获取可持续的业务增长动力</p>
           <div class="cta-actions">
             <a href="tel:400-888-xxxx" class="btn btn-primary btn-large">400-888-xxxx</a>
             <router-link to="/contact" class="btn btn-outline btn-large">在线咨询</router-link>

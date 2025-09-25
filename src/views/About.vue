@@ -4,7 +4,7 @@
     <section class="page-header">
       <div class="container">
         <h1 class="page-title">关于我们</h1>
-        <p class="page-subtitle">武汉和信科技有限公司 - 专业的移动设备租赁服务平台</p>
+        <p class="page-subtitle">武汉和信科技有限公司 - 企业数字化软件与数码产品综合服务商</p>
       </div>
     </section>
 
@@ -49,12 +49,12 @@
           <div class="vision-card">
             <div class="card-icon">🎯</div>
             <h3>企业愿景</h3>
-            <p>成为中国领先的移动设备租赁服务平台，让每个人都能以最经济的方式体验最新科技产品。</p>
+            <p>成为企业数字化转型的首选合作伙伴，持续为客户创造可持续的技术价值。</p>
           </div>
           <div class="mission-card">
             <div class="card-icon">🚀</div>
             <h3>企业使命</h3>
-            <p>通过创新的租赁模式，降低用户获取高端数码产品的门槛，促进资源的高效利用，为用户创造更大价值。</p>
+            <p>以软件研发、数码产品供应及智能租赁的协同能力，帮助客户高效实现业务创新与落地。</p>
           </div>
         </div>
       </div>
@@ -102,39 +102,39 @@
             <div class="timeline-date">2025年5月</div>
             <div class="timeline-content">
               <h4>公司成立</h4>
-              <p>武汉和信科技有限公司正式成立，开始手机租赁平台开发，初始团队组建完成</p>
+              <p>武汉和信科技有限公司正式成立，组建核心研发与供应链团队，明确数字化服务战略。</p>
             </div>
           </div>
-          
+
           <div class="timeline-item">
             <div class="timeline-date">2025年7月</div>
             <div class="timeline-content">
               <h4>技术开发</h4>
-              <p>完成平台核心功能开发，搭建分布式微服务架构，开始内测阶段</p>
+              <p>完成首批企业级软件解决方案与移动应用研发，打造可复用的技术底座。</p>
             </div>
           </div>
-          
+
           <div class="timeline-item">
             <div class="timeline-date">2025年8月</div>
             <div class="timeline-content">
-              <h4>平台上线</h4>
-              <p>正式上线和信租平台，首批合作商家入驻，开始为用户提供租赁服务</p>
+              <h4>生态合作</h4>
+              <p>与多家数码产品品牌及渠道伙伴达成合作，建立一体化采购与交付体系。</p>
             </div>
           </div>
-          
+
           <div class="timeline-item">
             <div class="timeline-date">2025年9月</div>
             <div class="timeline-content">
               <h4>业务扩展</h4>
-              <p>用户数突破1000人，月交易额达到100万元，业务快速发展</p>
+              <p>发布智能租赁与托管服务，形成“研发+销售+租赁”闭环能力，为客户提供一站式服务。</p>
             </div>
           </div>
-          
+
           <div class="timeline-item">
             <div class="timeline-date">2025年底</div>
             <div class="timeline-content">
-              <h4>市场拓展</h4>
-              <p>预计用户数突破10000人，覆盖武汉主要区域和商圈</p>
+              <h4>战略计划</h4>
+              <p>规划构建行业解决方案矩阵，服务覆盖华中及周边重点城市，打造区域数字化标杆。</p>
             </div>
           </div>
         </div>
@@ -145,7 +145,7 @@
     <section class="section team-scale">
       <div class="container">
         <h2 class="section-title">团队规模</h2>
-        <p class="section-subtitle">100人的专业团队，为您提供优质的服务体验</p>
+        <p class="section-subtitle">100人的跨领域团队，覆盖软件研发、产品集成与运营服务</p>
         
         <div class="team-stats">
           <div class="team-overview">
@@ -232,7 +232,7 @@
           
           <div class="tech-card">
             <h4>⚡ 开发能力</h4>
-            <p>自主研发租赁管理系统、移动端应用、支付系统集成，具备完整的产品开发能力</p>
+            <p>自主研发数字化管理平台、智能租赁系统与移动端应用，具备完整的产品开发能力</p>
           </div>
         </div>
       </div>
@@ -248,19 +248,19 @@
           <div class="responsibility-card">
             <div class="resp-icon">🎓</div>
             <h4>数字扶贫计划</h4>
-            <p>为经济困难学生提供免费手机租赁服务，帮助缩小数字鸿沟</p>
+            <p>为欠发达地区提供基础软件系统与数码终端支持，帮助缩小数字鸿沟。</p>
           </div>
-          
+
           <div class="responsibility-card">
             <div class="resp-icon">♻️</div>
             <h4>环保回收行动</h4>
-            <p>推广旧手机回收再利用，减少电子垃圾，倡导循环经济理念</p>
+            <p>推广设备回收再利用，减少电子垃圾，倡导循环经济理念。</p>
           </div>
-          
+
           <div class="responsibility-card">
             <div class="resp-icon">📚</div>
             <h4>科技助学项目</h4>
-            <p>与高校合作，为学生提供优惠的数码设备租赁服务</p>
+            <p>与高校合作，为学生提供教学软件平台与数码终端的组合服务。</p>
           </div>
         </div>
       </div>
@@ -278,33 +278,33 @@
             <div class="plan-content">
               <h4>短期目标</h4>
               <ul>
-                <li>用户数突破50,000人，月活跃用户达到20,000人</li>
-                <li>合作商家数量达到100家，覆盖主流手机品牌</li>
-                <li>月交易额突破1,000万元，实现盈亏平衡</li>
+                <li>交付30个以上企业数字化项目，客户满意度保持95%以上</li>
+                <li>建立覆盖华中地区的数码产品供应链与交付网络</li>
+                <li>完善软件研发、产品销售与租赁运维协同流程</li>
               </ul>
             </div>
           </div>
-          
+
           <div class="plan-item">
             <div class="plan-period">3年内</div>
             <div class="plan-content">
               <h4>中期目标</h4>
               <ul>
-                <li>业务覆盖华中地区主要城市，用户数突破500,000人</li>
-                <li>拓展到笔记本电脑、平板等更多品类</li>
-                <li>建立完善的供应链体系和仓储物流网络</li>
+                <li>打造5大行业数字化解决方案并建立演示中心</li>
+                <li>建设区域化交付与运维中心，提升服务半径</li>
+                <li>引入AI、IoT等前沿技术，持续提升产品竞争力</li>
               </ul>
             </div>
           </div>
-          
+
           <div class="plan-item">
             <div class="plan-period">5年内</div>
             <div class="plan-content">
               <h4>长期愿景</h4>
               <ul>
-                <li>成为全国知名的数码设备租赁平台，用户数突破5,000,000人</li>
-                <li>建立完整的数码产品生态圈，涵盖租赁、回收、维修等全链条服务</li>
-                <li>探索海外市场，将中国的共享经济模式推向国际</li>
+                <li>成为全国领先的企业数字化综合服务商，构建全域服务网络</li>
+                <li>打造软件研发、产品供应、智能租赁协同的生态体系</li>
+                <li>探索海外合作机会，将中国数字化经验输出到国际市场</li>
               </ul>
             </div>
           </div>
