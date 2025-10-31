@@ -251,7 +251,7 @@
           <h2>规划您的数字化升级路径</h2>
           <p>获取定制化的软件研发与终端交付方案，让业务创新更快、更稳、更可持续。</p>
           <div class="cta-actions">
-            <a href="tel:400-888-xxxx" class="btn btn-primary btn-large">咨询热线：400-888-xxxx</a>
+            <a href="tel:027-85896882" class="btn btn-primary btn-large">咨询热线：027-85896882</a>
             <router-link to="/contact" class="btn btn-outline btn-large">在线咨询</router-link>
           </div>
         </div>

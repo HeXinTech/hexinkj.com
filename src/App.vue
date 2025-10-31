@@ -19,7 +19,7 @@
             </div>
 
             <div class="nav-actions">
-              <a href="tel:400-888-xxxx" class="btn btn-primary">400-888-xxxx</a>
+              <a href="tel:027-85896882" class="btn btn-primary">027-85896882</a>
             </div>
 
             <div class="mobile-menu-toggle" @click="toggleMobileMenu">
@@ -74,8 +74,8 @@
           <div class="footer-section">
             <h4 class="footer-subtitle">联系我们</h4>
             <div class="contact-info">
-              <p>📞 客服热线：400-888-xxxx</p>
-              <p>📧 邮箱：info@hexinkj.com</p>
+              <p>📞 客服热线：027-85896882</p>
+              <p>📧 邮箱：service@hexinkj.com</p>
               <p>📍 地址：湖北省武汉市江岸区新华路396号</p>
             </div>
           </div>

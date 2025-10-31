@@ -14,7 +14,7 @@
               配套智能租赁与运维能力，助力企业数字化升级。
             </p>
             <div class="hero-actions fade-in-up">
-              <a href="tel:400-888-xxxx" class="btn btn-primary">预约咨询</a>
+              <a href="tel:027-85896882" class="btn btn-primary">预约咨询</a>
               <router-link to="/services" class="btn btn-outline">获取方案</router-link>
             </div>
           </div>
@@ -168,7 +168,7 @@
           <h2>开启数字化升级</h2>
           <p>与我们一起规划软件研发与数码产品交付方案，获取可持续的业务增长动力</p>
           <div class="cta-actions">
-            <a href="tel:400-888-xxxx" class="btn btn-primary btn-large">400-888-xxxx</a>
+            <a href="tel:027-85896882" class="btn btn-primary btn-large">027-85896882</a>
             <router-link to="/contact" class="btn btn-outline btn-large">在线咨询</router-link>
           </div>
         </div>

@@ -16,10 +16,10 @@
             <div class="contact-icon">📞</div>
             <h3>客服热线</h3>
             <div class="contact-info">
-              <p class="main-number">400-888-xxxx</p>
+              <p class="main-number">027-85896882</p>
               <p class="sub-info">7×24小时服务</p>
             </div>
-            <a href="tel:400-888-xxxx" class="btn btn-primary">立即拨打</a>
+            <a href="tel:027-85896882" class="btn btn-primary">立即拨打</a>
           </div>
 
           <div class="contact-card">
@@ -36,10 +36,10 @@
             <div class="contact-icon">📧</div>
             <h3>邮箱联系</h3>
             <div class="contact-info">
-              <p class="main-number">info@hexinkj.com</p>
+              <p class="main-number">service@hexinkj.com</p>
               <p class="sub-info">24小时内回复</p>
             </div>
-            <a href="mailto:info@hexinkj.com" class="btn btn-primary">发送邮件</a>
+            <a href="mailto:service@hexinkj.com" class="btn btn-primary">发送邮件</a>
           </div>
         </div>
       </div>
@@ -57,19 +57,19 @@
               <div class="info-list">
                 <div class="info-item">
                   <span class="label">全国客服热线：</span>
-                  <span class="value">400-888-xxxx</span>
+                  <span class="value">027-85896882</span>
                 </div>
                 <div class="info-item">
                   <span class="label">VIP客户专线：</span>
-                  <span class="value">400-888-1699</span>
+                  <span class="value">027-85896882</span>
                 </div>
                 <div class="info-item">
                   <span class="label">技术支持热线：</span>
-                  <span class="value">17663746514</span>
+                  <span class="value">027-85896882</span>
                 </div>
                 <div class="info-item">
                   <span class="label">投诉建议热线：</span>
-                  <span class="value">400-888-1677</span>
+                  <span class="value">027-85896882</span>
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@
                 </div>
                 <div class="info-item">
                   <span class="label">QQ客服群：</span>
-                  <span class="value">123456789</span>
+                  <span class="value">暂无</span>
                 </div>
                 <div class="info-item">
                   <span class="label">企业微信：</span>
@@ -104,12 +104,12 @@
                   <span class="value">service@hexinkj.com</span>
                 </div>
                 <div class="info-item">
-                  <span class="label">商务合作：</span>
-                  <span class="value">business@hexinkj.com</span>
+                  <span class="label">简历投递：</span>
+                  <span class="value">hr@hexinkj.com</span>
                 </div>
                 <div class="info-item">
                   <span class="label">企业邮箱：</span>
-                  <span class="value">info@hexinkj.com</span>
+                  <span class="value">service@hexinkj.com</span>
                 </div>
               </div>
             </div>
@@ -257,7 +257,7 @@
               <h4>🏢 总部地址</h4>
               <p class="address-text">湖北省武汉市江岸区新华路396号</p>
               <p class="address-detail">邮政编码：430014</p>
-              <p class="address-detail">联系电话：17663746514</p>
+              <p class="address-detail">联系电话：027-85896882</p>
               <p class="address-detail">传真号码：027-82345678</p>
             </div>
 
@@ -291,28 +291,28 @@
           <div class="social-card">
             <div class="social-icon">📱</div>
             <h4>官方微博</h4>
-            <p>@和信数字化服务</p>
+            <p>@武汉和信科技</p>
             <p class="social-desc">最新的软件与终端方案动态</p>
           </div>
 
           <div class="social-card">
             <div class="social-icon">📹</div>
             <h4>抖音官方账号</h4>
-            <p>和信科技数码</p>
+            <p>武汉和信科技</p>
             <p class="social-desc">产品交付案例与客户故事</p>
           </div>
 
           <div class="social-card">
             <div class="social-icon">💬</div>
             <h4>微信公众号</h4>
-            <p>和信数字化</p>
+            <p>武汉和信科技</p>
             <p class="social-desc">专业资讯和客户服务</p>
           </div>
 
           <div class="social-card">
             <div class="social-icon">👥</div>
             <h4>用户交流群</h4>
-            <p>QQ群：123456789</p>
+            <p>QQ群：暂无</p>
             <p class="social-desc">用户交流和问题解答</p>
           </div>
         </div>
@@ -339,7 +339,7 @@ export default {
   methods: {
     openOnlineChat() {
       // 这里可以集成在线客服系统
-      alert('在线客服功能即将开放，请先拨打客服热线：400-888-xxxx')
+      alert('在线客服功能即将开放，请先拨打客服热线：027-85896882')
     },
 
     async submitForm() {
@@ -356,7 +356,7 @@ export default {
         alert('留言提交成功！我们会在24小时内与您联系。')
         this.resetForm()
       } catch (error) {
-        alert('提交失败，请稍后重试或直接拨打客服热线：400-888-xxxx')
+        alert('提交失败，请稍后重试或直接拨打客服热线：027-85896882')
       } finally {
         this.submitting = false
       }
