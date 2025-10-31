@@ -115,70 +115,20 @@
             </div>
           </div>
 
-          <div class="contact-form-section">
-            <h2 class="section-title">在线留言</h2>
-            <form class="contact-form" @submit.prevent="submitForm">
-              <div class="form-group">
-                <label for="name">姓名 *</label>
-                <input
-                  type="text"
-                  id="name"
-                  v-model="form.name"
-                  required
-                  placeholder="请输入您的姓名"
-                >
-              </div>
-
-              <div class="form-group">
-                <label for="phone">联系电话 *</label>
-                <input
-                  type="tel"
-                  id="phone"
-                  v-model="form.phone"
-                  required
-                  placeholder="请输入您的联系电话"
-                >
-              </div>
-
-              <div class="form-group">
-                <label for="email">邮箱</label>
-                <input
-                  type="email"
-                  id="email"
-                  v-model="form.email"
-                  placeholder="请输入您的邮箱地址"
-                >
-              </div>
-
-              <div class="form-group">
-                <label for="service">服务类型</label>
-                <select id="service" v-model="form.service">
-                  <option value="">请选择服务类型</option>
-                  <option value="software">软件研发咨询</option>
-                  <option value="product">数码产品采购</option>
-                  <option value="leasing">智能租赁托管</option>
-                  <option value="solution">行业解决方案</option>
-                  <option value="support">技术支持</option>
-                  <option value="complaint">投诉建议</option>
-                  <option value="cooperation">商务合作</option>
-                </select>
-              </div>
-
-              <div class="form-group">
-                <label for="message">留言内容 *</label>
-                <textarea
-                  id="message"
-                  v-model="form.message"
-                  required
-                  rows="5"
-                  placeholder="请详细描述您的需求或问题，我们会尽快回复您"
-                ></textarea>
-              </div>
-
-              <button type="submit" class="btn btn-primary btn-large" :disabled="submitting">
-                {{ submitting ? '提交中...' : '提交留言' }}
-              </button>
-            </form>
+          <div class="contact-support-section">
+            <h2 class="section-title">联系我们的最佳方式</h2>
+            <div class="support-card">
+              <p>我们暂未开通在线留言提交，请通过下列方式直接联系服务团队，以便获得更快速、准确的响应。</p>
+              <ul class="support-list">
+                <li><strong>电话：</strong>027-85896882（7×24小时客服热线）</li>
+                <li><strong>邮箱：</strong>service@hexinkj.com（24小时内回复）</li>
+                <li><strong>微信：</strong>hexin-kefu（工作时间即时响应）</li>
+              </ul>
+            </div>
+            <div class="support-tips">
+              <h3>联系时请准备</h3>
+              <p>为便于我们快速定位问题，请提供您的企业名称、需求或问题描述、可回拨电话及方便联系的时间段。</p>
+            </div>
           </div>
         </div>
       </div>
@@ -324,78 +274,10 @@
 <script>
 export default {
   name: 'Contact',
-  data() {
-    return {
-      submitting: false,
-      form: {
-        name: '',
-        phone: '',
-        email: '',
-        service: '',
-        message: ''
-      }
-    }
-  },
   methods: {
     openOnlineChat() {
       // 这里可以集成在线客服系统
       alert('在线客服功能即将开放，请先拨打客服热线：027-85896882')
-    },
-
-    async submitForm() {
-      if (!this.validateForm()) {
-        return
-      }
-
-      this.submitting = true
-
-      try {
-        // 模拟提交表单
-        await new Promise(resolve => setTimeout(resolve, 2000))
-
-        alert('留言提交成功！我们会在24小时内与您联系。')
-        this.resetForm()
-      } catch (error) {
-        alert('提交失败，请稍后重试或直接拨打客服热线：027-85896882')
-      } finally {
-        this.submitting = false
-      }
-    },
-
-    validateForm() {
-      if (!this.form.name.trim()) {
-        alert('请输入您的姓名')
-        return false
-      }
-
-      if (!this.form.phone.trim()) {
-        alert('请输入您的联系电话')
-        return false
-      }
-
-      if (!this.form.message.trim()) {
-        alert('请输入留言内容')
-        return false
-      }
-
-      // 简单的手机号验证
-      const phoneRegex = /^1[3-9]\d{9}$/
-      if (!phoneRegex.test(this.form.phone.replace(/\D/g, ''))) {
-        alert('请输入正确的手机号码')
-        return false
-      }
-
-      return true
-    },
-
-    resetForm() {
-      this.form = {
-        name: '',
-        phone: '',
-        email: '',
-        service: '',
-        message: ''
-      }
     }
   },
 
@@ -415,7 +297,7 @@ export default {
     }, observerOptions)
 
     // 观察所有需要动画的元素
-    document.querySelectorAll('.contact-card, .standard-card, .stat-card, .social-card').forEach(el => {
+    document.querySelectorAll('.contact-card, .standard-card, .stat-card, .social-card, .support-card, .support-tips').forEach(el => {
       observer.observe(el)
     })
   }
@@ -535,46 +417,56 @@ export default {
   font-weight: 600;
 }
 
-/* 联系表单 */
-.contact-form {
+/* 联系支持提示 */
+.contact-support-section {
   background: white;
   border-radius: 16px;
   padding: 2rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
-.form-group {
+.support-card {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 1.5rem;
   margin-bottom: 1.5rem;
+  line-height: 1.6;
+  color: #444;
 }
 
-.form-group label {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: 500;
+.support-card p {
+  margin-bottom: 1rem;
+}
+
+.support-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.support-list li {
+  margin-bottom: 0.75rem;
   color: #333;
 }
 
-.form-group input,
-.form-group select,
-.form-group textarea {
-  width: 100%;
-  padding: 1rem;
-  border: 2px solid #e9ecef;
-  border-radius: 8px;
-  font-size: 1rem;
-  transition: border-color 0.3s ease;
+.support-list strong {
+  color: #1a1a1a;
+  font-weight: 600;
 }
 
-.form-group input:focus,
-.form-group select:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: #667eea;
+.support-tips {
+  background: #eef2ff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  line-height: 1.6;
+  color: #334155;
 }
 
-.form-group textarea {
-  resize: vertical;
-  min-height: 120px;
+.support-tips h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #1a1a1a;
 }
 
 /* 服务标准 */
